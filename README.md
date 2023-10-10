@@ -1,4 +1,4 @@
-![image](https://github.com/mysthics/t1_2019130025/assets/103974844/5b234d05-92c6-4ba1-afbf-433775589690)![image](https://github.com/mysthics/t1_2019130025/assets/103974844/4921f8df-c192-4b6c-83ed-9d093cc0a818)# t1_2019130025
+# t1_2019130025
 
 A new Flutter project.
 ### Hotel Apps - T1 Template Slicing
@@ -18,6 +18,20 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Inspirated By : 
 
-- [User Profile]([https://dribbble.com/shots/6178208-User-Profile](https://dribbble.com/shots/22603261-Hotel-App))
+- [User Profile] (https://dribbble.com/rn_istiqomah)
+
+
+![image](https://github.com/mysthics/t1_2019130025/assets/103974844/c0e6eea1-16e9-4229-9aa5-e6bbfa68b971)
+
+## ScreenShot
+
+**SplashScreen**
+
+![image](https://github.com/mysthics/t1_2019130025/assets/103974844/5b13623b-6996-46e4-9864-81576448e9cb)
+
+**ScreenPage**
+
+![image](https://github.com/mysthics/t1_2019130025/assets/103974844/dd5c6bcd-db8e-482b-bc9f-286ba36085a6)
+
 
   
