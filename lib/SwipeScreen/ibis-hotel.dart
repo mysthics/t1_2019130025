@@ -7,11 +7,11 @@ class Scene extends StatelessWidget {
     double baseWidth = 114;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Center(
         // ibishotelMPw (1:49)
-        child: Container(
+        child: SizedBox(
           width: double.infinity,
           height: 36 * fem,
           child: Text(
@@ -22,7 +22,7 @@ class Scene extends StatelessWidget {
               fontSize: 24 * ffem,
               fontWeight: FontWeight.w700,
               height: 1.5 * ffem / fem,
-              color: Color(0xff000000),
+              color: const Color(0xff000000),
             ),
           ),
         ),

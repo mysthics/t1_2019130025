@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:t1_2019130025/SwipeScreen/screen_page.dart';
 import 'package:t1_2019130025/utils.dart';
 
 class SplashScreen extends StatelessWidget {
@@ -143,37 +144,35 @@ class SplashScreen extends StatelessWidget {
                             left: 78 * fem,
                             top: 29 * fem,
                             child: InkWell(
-                            child: Center(
-                              child: Align(
-                                child: SizedBox(
-                                  width: 197 * fem,
-                                  height: 38 * fem,
-                                  child: Text(
-                                    'Getting Started',
-                                    textAlign: TextAlign.center,
-                                    style: SafeGoogleFont(
-                                      'Poppins',
-                                      fontSize: 25 * ffem,
-                                      fontWeight: FontWeight.w700,
-                                      height: 1.5 * ffem / fem,
-                                      color: const Color(0xffffffff),
+                              child: Center(
+                                child: Align(
+                                  child: SizedBox(
+                                    width: 197 * fem,
+                                    height: 38 * fem,
+                                    child: Text(
+                                      'Getting Started',
+                                      textAlign: TextAlign.center,
+                                      style: SafeGoogleFont(
+                                        'Poppins',
+                                        fontSize: 25 * ffem,
+                                        fontWeight: FontWeight.w700,
+                                        height: 1.5 * ffem / fem,
+                                        color: const Color(0xffffffff),
+                                      ),
                                     ),
                                   ),
-                                  onTap: () {
-                                    Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                    builder: (context) =>
-                                    const ScreenPage(),
-                                          ),
-                                        );
-                                      },
-                                    ),
                                 ),
                               ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => const ScreenPage(),
+                                  ),
+                                );
+                              },
                             ),
                           ),
-                          )
                         ],
                       ),
                     ),
